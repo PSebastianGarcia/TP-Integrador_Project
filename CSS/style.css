@@ -1,4 +1,4 @@
-.card::before {
+.card-header::before {
 
     content: "";
     display: block;
@@ -10,23 +10,13 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.pharag-text {
 
+    font-size: smaller;
+}
 
-@media screen and (min-width: 576px){
+.green-button {
 
-    .top-0 {
-
-        position: absolute;
-        bottom: 0;
-    }
-
-    /* .text {
-        
-        color: white;
-    }
-
-    .bgc {
-
-        background-color: none;
-    } */
+    background-color: #4CBB17;
+    color: white;
 }
