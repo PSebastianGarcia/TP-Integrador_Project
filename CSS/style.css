@@ -1,22 +1,21 @@
-.card-header::before {
-
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
 .pharag-text {
 
     font-size: smaller;
 }
 
-.green-button {
+.green-button-header {
 
     background-color: #4CBB17;
     color: white;
+}
+
+.green-button {
+
+    background-color: #9ABA25;
+    color: white;
+}
+
+.footer-color {
+
+    background-color: rgb(30, 71, 110);
 }
