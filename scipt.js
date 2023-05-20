@@ -20,11 +20,11 @@ function finalValue (value) {
     const countTicket = document.getElementById("countInput").value;
     let price = TICKET_BASE_PRICE;
     if (value == 1) {
-        price *= STUDENT_DESC;
+        price -= price * STUDENT_DESC;
     } else if (value == 2) {
-        price *= TRAINEE_DESC;
+        price -= price * TRAINEE_DESC;
     } else {
-        price *= JUNIOR_DESC;
+        price -= price * JUNIOR_DESC;
     };
     valueTicket.innerHTML = price * countTicket;
 };
