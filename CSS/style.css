@@ -19,3 +19,20 @@
 
     background-color: rgb(30, 71, 110);
 }
+
+.card-price > h3 {
+
+    font-size: medium;
+    margin-bottom: 10%;
+}
+
+.card-price > h3:last-child {
+
+    margin-bottom: 0%;
+}
+
+.notation {
+
+    color: gray;
+}
+
